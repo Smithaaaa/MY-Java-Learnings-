@@ -1,0 +1,22 @@
+package JavaPractice;
+
+public class Methods2 {
+	public static void main(String[] args) {
+		
+	
+	
+	int result = Sum(10);
+	System.out.println(result);
+	}
+
+    public static int  Sum(int k)
+      {
+	     if(k > 0) {
+	    	 return k + Sum(k-1);
+	     }
+	     else {
+	    	 return 0;
+	     }
+
+     } 
+}
