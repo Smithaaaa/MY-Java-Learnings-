@@ -1,0 +1,18 @@
+public class pyramidnumbers
+{
+  public static void main(string srgs[])
+  {
+for(i=1;i<=n;i++) //outer for loop going with test condition,increment and only one time intialization.
+	{
+	 for (j=1;j<=n-i;j++)//inner for loop always works with initialization.decrease by one
+	  {
+	   system.out.print(" ");//print means always printimg in same line
+	  }
+	 for( k=1;k<=(2*i)-1;k++);//2*i =increase the star value by 2
+	 {
+	  system.out.print(" ");
+	 }
+	 system.out,println("\n");
+	}
+  }
+}
